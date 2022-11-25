@@ -2,6 +2,39 @@ header{
 
     color: rgb(74, 65, 208);
 }
-.customMiddle{
-    margin-left: 30%;
+
+.col{
+    background-color: red;
+}
+.customBorder{
+
+border: 1px solid rgb(210, 209, 209);
+height: 200px;
+box-shadow: 1px 2px 3px rgb(215, 215, 215);
+
+}
+
+.webImage{
+    width: 400px;
+    height: 200px;
+}
+
+.customMargin{
+
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .customMargin{
+
+        margin-left: 0vw;
+        margin-top: 0vh;
+        font-size: small;
+    }
+}
+
+h1{
+    color: #03045e;
+    
 }
